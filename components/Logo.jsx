@@ -5,7 +5,9 @@ import { HomeIcon } from "@radix-ui/react-icons";
 const Logo = () => {
   return (
     <Link className="" href="/">
-      <HomeIcon />
+      <div className="font-mono font-bold md:text-xl xl:text-2xl text-purple-900 dark:text-white">
+        @DevThilina
+      </div>
     </Link>
   );
 };
