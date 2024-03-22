@@ -14,23 +14,23 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: "/",
+    path: "https://www.youtube.com/@inspirelk438",
     name: <RiYoutubeFill />,
   },
   {
-    path: "/",
+    path: "www.linkedin.com/in/thilinaruwan11",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/thilinaruwan112",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/thilinaruwanofficial",
     name: <RiFacebookFill />,
   },
   {
-    path: "/",
+    path: "https://www.instagram.com/thilina_ruwan_",
     name: <RiInstagramFill />,
   },
 ];

@@ -36,9 +36,11 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV <Download size={18} />
-              </Button>
+              <Link href="/thilina-resume.pdf" target="_blank">
+                <Button variant="secondary" className="gap-x-2">
+                  Download CV <Download size={18} />
+                </Button>{" "}
+              </Link>
             </div>
             {/* Socials */}
             <Socials
@@ -60,9 +62,9 @@ const Hero = () => {
             {/* Badge 2 */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
-              icon={<RiBriefcase4Fill />}
-              endCountNum={3}
-              endCountText="k"
+              icon={<RiTodoFill />}
+              endCountNum={9}
+              endCountText="+"
               badgeText="Finished Projects"
             />
 
@@ -70,8 +72,8 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[55%] -right-8"
               icon={<RiTeamFill />}
-              endCountNum={25}
-              endCountText="k"
+              endCountNum={8}
+              endCountText="+"
               badgeText="Happy Clients"
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
